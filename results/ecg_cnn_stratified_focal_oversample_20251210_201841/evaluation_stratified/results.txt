@@ -1,0 +1,28 @@
+ECG Arrhythmia Classification Results - STRATIFIED VERSION
+Developed by Kuldeep Choksi
+==================================================
+
+Accuracy: 98.61%
+F1-Macro: 0.9250
+F1-Weighted: 0.9860
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+          Normal (N)       0.99      0.99      0.99     18117
+Supraventricular (S)       0.91      0.85      0.88       556
+     Ventricular (V)       0.95      0.97      0.96      1447
+          Fusion (F)       0.82      0.79      0.80       160
+         Unknown (Q)       1.00      0.99      0.99      1608
+
+            accuracy                           0.99     21888
+           macro avg       0.93      0.92      0.93     21888
+        weighted avg       0.99      0.99      0.99     21888
+
+
+Confusion Matrix:
+[[17988    47    57    18     7]
+ [   82   472     2     0     0]
+ [   34     2  1401    10     0]
+ [   22     0    12   126     0]
+ [   11     0     1     0  1596]]
